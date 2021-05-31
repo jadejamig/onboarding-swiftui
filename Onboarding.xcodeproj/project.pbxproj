@@ -3,23 +3,84 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D278E93F2664A9130087ADB8 /* OnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278E93E2664A9130087ADB8 /* OnboardingApp.swift */; };
-		D278E9412664A9130087ADB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278E9402664A9130087ADB8 /* ContentView.swift */; };
 		D278E9432664A9170087ADB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D278E9422664A9170087ADB8 /* Assets.xcassets */; };
 		D278E9462664A9170087ADB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D278E9452664A9170087ADB8 /* Preview Assets.xcassets */; };
+		D278E94E2664A9700087ADB8 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D278E94D2664A9700087ADB8 /* Onboarding.swift */; };
+		D2BEF4572664B24C00AB5CA0 /* BlobShapeTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4392664B24B00AB5CA0 /* BlobShapeTop.swift */; };
+		D2BEF4582664B24C00AB5CA0 /* BackG3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF43A2664B24B00AB5CA0 /* BackG3.swift */; };
+		D2BEF4592664B24C00AB5CA0 /* Line2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF43B2664B24B00AB5CA0 /* Line2.swift */; };
+		D2BEF45A2664B24C00AB5CA0 /* BackG1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF43C2664B24B00AB5CA0 /* BackG1.swift */; };
+		D2BEF45B2664B24C00AB5CA0 /* BoomerangRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF43D2664B24B00AB5CA0 /* BoomerangRight.swift */; };
+		D2BEF45C2664B24C00AB5CA0 /* BG4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF43E2664B24B00AB5CA0 /* BG4.swift */; };
+		D2BEF45D2664B24C00AB5CA0 /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF43F2664B24B00AB5CA0 /* AccountBackground.swift */; };
+		D2BEF45E2664B24C00AB5CA0 /* Blob1Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4402664B24B00AB5CA0 /* Blob1Graphic.swift */; };
+		D2BEF45F2664B24C00AB5CA0 /* BackG2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4412664B24B00AB5CA0 /* BackG2.swift */; };
+		D2BEF4602664B24C00AB5CA0 /* Line1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4422664B24B00AB5CA0 /* Line1.swift */; };
+		D2BEF4612664B24C00AB5CA0 /* YellowPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4432664B24B00AB5CA0 /* YellowPlanet.swift */; };
+		D2BEF4622664B24C00AB5CA0 /* MaskBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4442664B24B00AB5CA0 /* MaskBlur.swift */; };
+		D2BEF4632664B24C00AB5CA0 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4452664B24B00AB5CA0 /* Wave.swift */; };
+		D2BEF4642664B24C00AB5CA0 /* RedPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4462664B24B00AB5CA0 /* RedPlanet.swift */; };
+		D2BEF4652664B24C00AB5CA0 /* BoomerangBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4472664B24B00AB5CA0 /* BoomerangBG.swift */; };
+		D2BEF4662664B24C00AB5CA0 /* BoomerangLeftTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4482664B24B00AB5CA0 /* BoomerangLeftTop.swift */; };
+		D2BEF4672664B24C00AB5CA0 /* InsideFace5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4492664B24B00AB5CA0 /* InsideFace5.swift */; };
+		D2BEF4682664B24C00AB5CA0 /* PurplePlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF44A2664B24B00AB5CA0 /* PurplePlanet.swift */; };
+		D2BEF4692664B24C00AB5CA0 /* Blob2Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF44B2664B24B00AB5CA0 /* Blob2Graphic.swift */; };
+		D2BEF46A2664B24C00AB5CA0 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF44C2664B24B00AB5CA0 /* Stars.swift */; };
+		D2BEF46B2664B24C00AB5CA0 /* BoomerangLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF44D2664B24B00AB5CA0 /* BoomerangLeft.swift */; };
+		D2BEF46C2664B24C00AB5CA0 /* InsideFace1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF44E2664B24B00AB5CA0 /* InsideFace1.swift */; };
+		D2BEF46D2664B24C00AB5CA0 /* BackgroundShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF44F2664B24B00AB5CA0 /* BackgroundShapes.swift */; };
+		D2BEF46E2664B24C00AB5CA0 /* InsideFace3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4502664B24B00AB5CA0 /* InsideFace3.swift */; };
+		D2BEF46F2664B24C00AB5CA0 /* FaceGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4512664B24C00AB5CA0 /* FaceGraphic.swift */; };
+		D2BEF4702664B24C00AB5CA0 /* Blob3Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4522664B24C00AB5CA0 /* Blob3Graphic.swift */; };
+		D2BEF4712664B24C00AB5CA0 /* InsideFace4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4532664B24C00AB5CA0 /* InsideFace4.swift */; };
+		D2BEF4722664B24C00AB5CA0 /* InsideFace2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4542664B24C00AB5CA0 /* InsideFace2.swift */; };
+		D2BEF4732664B24C00AB5CA0 /* BigShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4552664B24C00AB5CA0 /* BigShape.swift */; };
+		D2BEF4742664B24C00AB5CA0 /* Wave1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEF4562664B24C00AB5CA0 /* Wave1.swift */; };
+		D2BEF4772664B2F000AB5CA0 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = D2BEF4762664B2F000AB5CA0 /* SwiftUIX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D278E93B2664A9130087ADB8 /* Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D278E93E2664A9130087ADB8 /* OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp.swift; sourceTree = "<group>"; };
-		D278E9402664A9130087ADB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D278E9422664A9170087ADB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D278E9452664A9170087ADB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D278E9472664A9170087ADB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D278E94D2664A9700087ADB8 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		D2BEF4392664B24B00AB5CA0 /* BlobShapeTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobShapeTop.swift; sourceTree = "<group>"; };
+		D2BEF43A2664B24B00AB5CA0 /* BackG3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackG3.swift; sourceTree = "<group>"; };
+		D2BEF43B2664B24B00AB5CA0 /* Line2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line2.swift; sourceTree = "<group>"; };
+		D2BEF43C2664B24B00AB5CA0 /* BackG1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackG1.swift; sourceTree = "<group>"; };
+		D2BEF43D2664B24B00AB5CA0 /* BoomerangRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoomerangRight.swift; sourceTree = "<group>"; };
+		D2BEF43E2664B24B00AB5CA0 /* BG4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BG4.swift; sourceTree = "<group>"; };
+		D2BEF43F2664B24B00AB5CA0 /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
+		D2BEF4402664B24B00AB5CA0 /* Blob1Graphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blob1Graphic.swift; sourceTree = "<group>"; };
+		D2BEF4412664B24B00AB5CA0 /* BackG2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackG2.swift; sourceTree = "<group>"; };
+		D2BEF4422664B24B00AB5CA0 /* Line1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line1.swift; sourceTree = "<group>"; };
+		D2BEF4432664B24B00AB5CA0 /* YellowPlanet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowPlanet.swift; sourceTree = "<group>"; };
+		D2BEF4442664B24B00AB5CA0 /* MaskBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskBlur.swift; sourceTree = "<group>"; };
+		D2BEF4452664B24B00AB5CA0 /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		D2BEF4462664B24B00AB5CA0 /* RedPlanet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedPlanet.swift; sourceTree = "<group>"; };
+		D2BEF4472664B24B00AB5CA0 /* BoomerangBG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoomerangBG.swift; sourceTree = "<group>"; };
+		D2BEF4482664B24B00AB5CA0 /* BoomerangLeftTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoomerangLeftTop.swift; sourceTree = "<group>"; };
+		D2BEF4492664B24B00AB5CA0 /* InsideFace5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideFace5.swift; sourceTree = "<group>"; };
+		D2BEF44A2664B24B00AB5CA0 /* PurplePlanet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurplePlanet.swift; sourceTree = "<group>"; };
+		D2BEF44B2664B24B00AB5CA0 /* Blob2Graphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blob2Graphic.swift; sourceTree = "<group>"; };
+		D2BEF44C2664B24B00AB5CA0 /* Stars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		D2BEF44D2664B24B00AB5CA0 /* BoomerangLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoomerangLeft.swift; sourceTree = "<group>"; };
+		D2BEF44E2664B24B00AB5CA0 /* InsideFace1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideFace1.swift; sourceTree = "<group>"; };
+		D2BEF44F2664B24B00AB5CA0 /* BackgroundShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundShapes.swift; sourceTree = "<group>"; };
+		D2BEF4502664B24B00AB5CA0 /* InsideFace3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideFace3.swift; sourceTree = "<group>"; };
+		D2BEF4512664B24C00AB5CA0 /* FaceGraphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceGraphic.swift; sourceTree = "<group>"; };
+		D2BEF4522664B24C00AB5CA0 /* Blob3Graphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blob3Graphic.swift; sourceTree = "<group>"; };
+		D2BEF4532664B24C00AB5CA0 /* InsideFace4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideFace4.swift; sourceTree = "<group>"; };
+		D2BEF4542664B24C00AB5CA0 /* InsideFace2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsideFace2.swift; sourceTree = "<group>"; };
+		D2BEF4552664B24C00AB5CA0 /* BigShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigShape.swift; sourceTree = "<group>"; };
+		D2BEF4562664B24C00AB5CA0 /* Wave1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BEF4772664B2F000AB5CA0 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				D278E93E2664A9130087ADB8 /* OnboardingApp.swift */,
-				D278E9402664A9130087ADB8 /* ContentView.swift */,
+				D278E94D2664A9700087ADB8 /* Onboarding.swift */,
+				D2BEF4382664B24B00AB5CA0 /* Graphics */,
 				D278E9422664A9170087ADB8 /* Assets.xcassets */,
 				D278E9472664A9170087ADB8 /* Info.plist */,
 				D278E9442664A9170087ADB8 /* Preview Content */,
@@ -67,6 +130,43 @@
 				D278E9452664A9170087ADB8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2BEF4382664B24B00AB5CA0 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				D2BEF4392664B24B00AB5CA0 /* BlobShapeTop.swift */,
+				D2BEF43A2664B24B00AB5CA0 /* BackG3.swift */,
+				D2BEF43B2664B24B00AB5CA0 /* Line2.swift */,
+				D2BEF43C2664B24B00AB5CA0 /* BackG1.swift */,
+				D2BEF43D2664B24B00AB5CA0 /* BoomerangRight.swift */,
+				D2BEF43E2664B24B00AB5CA0 /* BG4.swift */,
+				D2BEF43F2664B24B00AB5CA0 /* AccountBackground.swift */,
+				D2BEF4402664B24B00AB5CA0 /* Blob1Graphic.swift */,
+				D2BEF4412664B24B00AB5CA0 /* BackG2.swift */,
+				D2BEF4422664B24B00AB5CA0 /* Line1.swift */,
+				D2BEF4432664B24B00AB5CA0 /* YellowPlanet.swift */,
+				D2BEF4442664B24B00AB5CA0 /* MaskBlur.swift */,
+				D2BEF4452664B24B00AB5CA0 /* Wave.swift */,
+				D2BEF4462664B24B00AB5CA0 /* RedPlanet.swift */,
+				D2BEF4472664B24B00AB5CA0 /* BoomerangBG.swift */,
+				D2BEF4482664B24B00AB5CA0 /* BoomerangLeftTop.swift */,
+				D2BEF4492664B24B00AB5CA0 /* InsideFace5.swift */,
+				D2BEF44A2664B24B00AB5CA0 /* PurplePlanet.swift */,
+				D2BEF44B2664B24B00AB5CA0 /* Blob2Graphic.swift */,
+				D2BEF44C2664B24B00AB5CA0 /* Stars.swift */,
+				D2BEF44D2664B24B00AB5CA0 /* BoomerangLeft.swift */,
+				D2BEF44E2664B24B00AB5CA0 /* InsideFace1.swift */,
+				D2BEF44F2664B24B00AB5CA0 /* BackgroundShapes.swift */,
+				D2BEF4502664B24B00AB5CA0 /* InsideFace3.swift */,
+				D2BEF4512664B24C00AB5CA0 /* FaceGraphic.swift */,
+				D2BEF4522664B24C00AB5CA0 /* Blob3Graphic.swift */,
+				D2BEF4532664B24C00AB5CA0 /* InsideFace4.swift */,
+				D2BEF4542664B24C00AB5CA0 /* InsideFace2.swift */,
+				D2BEF4552664B24C00AB5CA0 /* BigShape.swift */,
+				D2BEF4562664B24C00AB5CA0 /* Wave1.swift */,
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +185,9 @@
 			dependencies = (
 			);
 			name = Onboarding;
+			packageProductDependencies = (
+				D2BEF4762664B2F000AB5CA0 /* SwiftUIX */,
+			);
 			productName = Onboarding;
 			productReference = D278E93B2664A9130087ADB8 /* Onboarding.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +215,9 @@
 				Base,
 			);
 			mainGroup = D278E9322664A9120087ADB8;
+			packageReferences = (
+				D2BEF4752664B2F000AB5CA0 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = D278E93C2664A9130087ADB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +244,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D278E9412664A9130087ADB8 /* ContentView.swift in Sources */,
+				D2BEF4572664B24C00AB5CA0 /* BlobShapeTop.swift in Sources */,
+				D278E94E2664A9700087ADB8 /* Onboarding.swift in Sources */,
+				D2BEF46E2664B24C00AB5CA0 /* InsideFace3.swift in Sources */,
+				D2BEF45A2664B24C00AB5CA0 /* BackG1.swift in Sources */,
+				D2BEF4612664B24C00AB5CA0 /* YellowPlanet.swift in Sources */,
+				D2BEF4692664B24C00AB5CA0 /* Blob2Graphic.swift in Sources */,
+				D2BEF4742664B24C00AB5CA0 /* Wave1.swift in Sources */,
+				D2BEF4622664B24C00AB5CA0 /* MaskBlur.swift in Sources */,
+				D2BEF45D2664B24C00AB5CA0 /* AccountBackground.swift in Sources */,
+				D2BEF4722664B24C00AB5CA0 /* InsideFace2.swift in Sources */,
+				D2BEF4602664B24C00AB5CA0 /* Line1.swift in Sources */,
+				D2BEF4702664B24C00AB5CA0 /* Blob3Graphic.swift in Sources */,
+				D2BEF4732664B24C00AB5CA0 /* BigShape.swift in Sources */,
+				D2BEF4672664B24C00AB5CA0 /* InsideFace5.swift in Sources */,
+				D2BEF4632664B24C00AB5CA0 /* Wave.swift in Sources */,
+				D2BEF4652664B24C00AB5CA0 /* BoomerangBG.swift in Sources */,
 				D278E93F2664A9130087ADB8 /* OnboardingApp.swift in Sources */,
+				D2BEF45C2664B24C00AB5CA0 /* BG4.swift in Sources */,
+				D2BEF4592664B24C00AB5CA0 /* Line2.swift in Sources */,
+				D2BEF4582664B24C00AB5CA0 /* BackG3.swift in Sources */,
+				D2BEF46F2664B24C00AB5CA0 /* FaceGraphic.swift in Sources */,
+				D2BEF45F2664B24C00AB5CA0 /* BackG2.swift in Sources */,
+				D2BEF46A2664B24C00AB5CA0 /* Stars.swift in Sources */,
+				D2BEF45B2664B24C00AB5CA0 /* BoomerangRight.swift in Sources */,
+				D2BEF46B2664B24C00AB5CA0 /* BoomerangLeft.swift in Sources */,
+				D2BEF4712664B24C00AB5CA0 /* InsideFace4.swift in Sources */,
+				D2BEF45E2664B24C00AB5CA0 /* Blob1Graphic.swift in Sources */,
+				D2BEF4642664B24C00AB5CA0 /* RedPlanet.swift in Sources */,
+				D2BEF4682664B24C00AB5CA0 /* PurplePlanet.swift in Sources */,
+				D2BEF46D2664B24C00AB5CA0 /* BackgroundShapes.swift in Sources */,
+				D2BEF46C2664B24C00AB5CA0 /* InsideFace1.swift in Sources */,
+				D2BEF4662664B24C00AB5CA0 /* BoomerangLeftTop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2BEF4752664B2F000AB5CA0 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2BEF4762664B2F000AB5CA0 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2BEF4752664B2F000AB5CA0 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D278E9332664A9120087ADB8 /* Project object */;
 }
